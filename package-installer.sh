@@ -37,3 +37,4 @@ sudo apt install -y "${packages[@]}"
 git clone https://github.com/SidonTheTroll/NvChad-Colemak ~/.config/nvim/ --depth 1 
 
 printf "Download and extract the files from https://www.pling.com/p/2014493/ \nThen move to ~/.themes/"
+printf "Also make sure to install this git client if you want \nhttps://www.gitkraken.com/git-client"
