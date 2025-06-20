@@ -1,0 +1,11 @@
+title = "cyan"
+
+search_title_fg = "lightblue"
+
+scrollbar_track_fg = "black"
+scrollbar_thumb_fg = "yellow"
+
+status_bar_fg = "white"
+status_bar_bg = "darkgray"
+
+border_type = "Rounded"
