@@ -1,13 +1,14 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR __fish_initialized:3100
-SETUVAR _fish_abbr_pushall:git\x20push\x20gh\x20\x26\x26\x20git\x20push\x20gl
+SETUVAR --export EDITOR:nvim
+SETUVAR __fish_initialized:3800
 SETUVAR _fish_abbr_c:clear
 SETUVAR _fish_abbr_e:exit
 SETUVAR _fish_abbr_h:history
 SETUVAR _fish_abbr_ly:lynx\x20\x2dcookies\x20\x2dbook
 SETUVAR _fish_abbr_n:neofetch\x20\x2d\x2dascii_bold\x20on\x20\x2d\x2dascii\x20\x7e/Tools/ascii\x2etxt\x20\x2d\x2dascii_colors\x200\x201\x202\x203\x204\x205\x206\x207\x208\x209
 SETUVAR _fish_abbr_nv:nvim
+SETUVAR _fish_abbr_pushall:git\x20push\x20gh\x20\x26\x26\x20git\x20push\x20gl
 SETUVAR _fish_abbr_r:ranger
 SETUVAR _fish_abbr_sus:systemctl
 SETUVAR _fish_abbr_t:tree
@@ -41,3 +42,4 @@ SETUVAR fish_pager_color_completion:normal
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR fish_pager_color_selected_background:\x2dr
