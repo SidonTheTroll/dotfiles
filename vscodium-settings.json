@@ -1,0 +1,40 @@
+{
+    "workbench.colorTheme": "Activate UMBRA protocol",
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDelete": false,
+    "editor.suggest.preview": true,
+    "editor.tabCompletion": "on",
+    "terminal.external.linuxExec": "kitty",
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "terminal.integrated.profiles.linux": {
+        "fish": {
+            "path": "/usr/bin/fish"
+        }
+    },
+    "clangd.path": "/home/sidon/.config/VSCodium/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/19.1.2/clangd_19.1.2/bin/clangd",
+    "workbench.productIconTheme": "fluent-icons",
+    "markdown.extension.completion.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.wordBasedSuggestions": "matchingDocuments",
+    "editor.acceptSuggestionOnEnter": "on",
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "other": true,
+        "comments": false,
+        "strings": true
+        }
+    },
+    "editor.fontFamily": "FiraCode Nerd Font",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+    "chat.editor.fontFamily": "",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontLigatures.enabled": true,
+    "editor.wordWrap": "on",
+    "terminal.integrated.gpuAcceleration": "on"
+}
