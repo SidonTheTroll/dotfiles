@@ -1,7 +1,24 @@
 #!/usr/bin/env bash
 
+mp_pid=""
+
+cleanup() {
+    if [[ -n "$mp_pid" ]] && kill -0 "$mp_pid" 2>/dev/null; then
+        kill "$mp_pid" 2>/dev/null
+        wait "$mp_pid" 2>/dev/null
+    fi
+}
+
+# Start MusicPresence only if it isn't already running.
 if ! pgrep -x musicpresence >/dev/null 2>&1; then
-    nohup /usr/bin/musicpresence >/dev/null 2>&1 &
+    /usr/bin/musicpresence >/dev/null 2>&1 &
+    mp_pid=$!
+    trap cleanup EXIT
 fi
 
-exec /usr/bin/kew "$@"
+# Run kew and wait for it to finish.
+ /usr/bin/kew "$@"
+status=$?
+
+exit "$status"
+
